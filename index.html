@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+
+  <body>
+    <h1>play the piano</h1>
+    
+    <div class="audio">
+        <audio id="1" src="sounds/do.mp3" preload="auto"></audio>
+        <audio id="2" src="sounds/re.mp3" preload="auto"></audio>
+        <audio id="3" src="sounds/mi.mp3" preload="auto"></audio>
+        <audio id="4" src="sounds/fa.mp3" preload="auto"></audio>
+        <audio id="5" src="sounds/so.mp3" preload="auto"></audio>
+        <audio id="6" src="sounds/la.mp3" preload="auto"></audio>
+        <audio id="7" src="sounds/si.mp3" preload="auto"></audio>
+    </div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+      require('./functions.js')
+    </script>
+  </body>
+
+</html>

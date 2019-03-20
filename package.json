@@ -1,0 +1,19 @@
+{
+  "name": "play-the-piano",
+  "version": "1.0.0",
+  "description": "press a keyboard(1-7) and hear the sound of piano",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "demo"
+  ],
+  "author": "Niu Chang",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^4.0.7"
+  }
+}
